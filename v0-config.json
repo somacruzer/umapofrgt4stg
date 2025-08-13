@@ -1,0 +1,74 @@
+{
+  "name": "UMAP Cluster Analysis Dashboard",
+  "description": "Interactive visualization of UMAP clustering data with modern React UI",
+  "version": "1.0.0",
+  "type": "web-application",
+  "framework": "react",
+  "deployment": {
+    "platform": "v0.dev",
+    "ready": true,
+    "files": [
+      "index.html",
+      "constructs_cluster_dataset.csv"
+    ]
+  },
+  "features": [
+    "Interactive scatter plots with Plotly.js",
+    "Real-time filtering by clusters and surveys",
+    "Search functionality across constructs",
+    "Responsive design with Tailwind CSS",
+    "Glass morphism UI design",
+    "Statistical dashboard with live updates"
+  ],
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "plotly.js": "latest",
+    "tailwindcss": "latest",
+    "babel-standalone": "latest"
+  },
+  "data": {
+    "source": "constructs_cluster_dataset.csv",
+    "format": "CSV",
+    "size": "4,098 records",
+    "columns": [
+      "User_ID",
+      "Survey_Name", 
+      "Pole_A",
+      "Pole_B",
+      "Cluster",
+      "Coordinate_X",
+      "Coordinate_Y",
+      "Bipolar_Construct"
+    ]
+  },
+  "ui": {
+    "theme": "modern",
+    "style": "glass-morphism",
+    "responsive": true,
+    "colors": {
+      "primary": "#667eea",
+      "secondary": "#764ba2",
+      "accent": "#FF6B6B"
+    }
+  },
+  "browser_support": {
+    "chrome": "90+",
+    "firefox": "88+",
+    "safari": "14+",
+    "edge": "90+"
+  },
+  "instructions": {
+    "v0_deployment": [
+      "1. Copy the complete HTML code from index.html",
+      "2. Upload constructs_cluster_dataset.csv to v0 or use CDN",
+      "3. Update CSV path in code if hosted elsewhere",
+      "4. Deploy - no additional configuration needed"
+    ],
+    "local_testing": [
+      "1. Serve files with local server (python -m http.server 8000)",
+      "2. Open http://localhost:8000 in browser",
+      "3. Verify CSV data loads correctly"
+    ]
+  }
+}

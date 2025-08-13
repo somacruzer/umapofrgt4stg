@@ -1,0 +1,35 @@
+CONSTRUCTS CLUSTER ANALYSIS - DATASET SUMMARY
+==================================================
+
+Generated on: 2025-07-18 11:55:48
+
+DATASET OVERVIEW:
+- Total data points: 4,096
+- Unique conversations: 358
+- Number of clusters: 7
+- Survey types: 5
+- Survey names: Construct Elaboration, Contrast and Reflection, Neutural, Positive, Praise
+
+CLUSTER DISTRIBUTION:
+- Cluster 0: 1,130 points from 100 conversations
+- Cluster 1: 621 points from 102 conversations
+- Cluster 2: 691 points from 122 conversations
+- Cluster 3: 443 points from 75 conversations
+- Cluster 4: 479 points from 89 conversations
+- Cluster 5: 252 points from 21 conversations
+- Cluster 6: 480 points from 87 conversations
+
+SURVEY DISTRIBUTION:
+- Construct Elaboration: 752 points from 60 conversations
+- Contrast and Reflection: 508 points from 58 conversations
+- Neutural: 1,756 points from 140 conversations
+- Positive: 562 points from 55 conversations
+- Praise: 518 points from 45 conversations
+
+FILES INCLUDED:
+- constructs_cluster_dataset.csv: Clean dataset for analysis
+- interactive_constructs_cluster_visualization.html: Interactive visualization
+- cluster_analysis_statistics.csv: Cluster statistics
+- survey_analysis_statistics.csv: Survey statistics
+- complete_processed_dataset.csv: Full processed dataset
+- README.md: Documentation and usage guide
